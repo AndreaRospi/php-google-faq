@@ -51,9 +51,20 @@ $faqs = [
 </head>
 
 <body>
+ <!-- MAIN -->
 
-
-
+    <main>
+        <div class="container">
+            <?php foreach ($faqs as $faq) { ?>
+                <h1 class="domanda">
+                    <?php echo $faq["domanda"]; ?>
+                </h1>
+                <p class="risposta">
+                    <?php echo $faq["risposta"]; ?>
+                </p>
+            <?php } ?>
+        </div>
+    </main>
 </body>
 
 </html>
