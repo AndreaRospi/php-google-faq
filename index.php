@@ -66,7 +66,7 @@ $faqs = [
         </ul>
     </header>
     <hr>
-    
+
     <!-- MAIN -->
 
     <main>
@@ -81,6 +81,29 @@ $faqs = [
             <?php } ?>
         </div>
     </main>
+    
+    <!-- FOOTER -->
+
+    <footer>
+        <div class="container">
+            <div class="info">
+                <ul class="info-list">
+                    <li>Google </li>
+                    <li>Tutto su Google </li>
+                    <li>Privacy </li>
+                    <li>Termini</li>
+                </ul>
+            </div>
+
+            <div class="lingua">
+                <select class="lang">
+                    <option>Italiano</option>
+                    <option>English</option>
+                    <option>Español</option>
+                </select>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
