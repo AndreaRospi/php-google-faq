@@ -51,7 +51,23 @@ $faqs = [
 </head>
 
 <body>
- <!-- MAIN -->
+
+    <!-- HEADER -->
+
+    <header>
+        <img src="./img/google.svg" alt="">
+        <div>Privacy e termini</div>
+        <ul>
+            <li>Introduzione</li>
+            <li>Norme sulla privacy</li>
+            <li>Termini di servizio</li>
+            <li>Tecnologie</li>
+            <li class="active">Domande frequenti</li>
+        </ul>
+    </header>
+    <hr>
+    
+    <!-- MAIN -->
 
     <main>
         <div class="container">
